@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="choose one "/>
+    <RadioGroup
+        android:id="@+id/RadioGroupp"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+    <RadioButton
+        android:id="@+id/PepperoniPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pepperoni Pizza“ />
+    <RadioButton
+         android:id="@+id/VeggiePizza"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Veggie Pizza“ />
+        <RadioButton
+            android:id="@+id/MeatPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meat Pizza“ />
+        <RadioButton
+        android:id="@+id/satisfactoryRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satisfactory“ />
+        <RadioButton
+            android:id="@+id/MargheritaPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margherita Pizza"         />
+    </RadioGroup>
+    <Button
+        android:id="@+id/cancell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel“ />
+  <Button
+    android:id="@+id/submitt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

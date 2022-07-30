@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/contact"
+        android:icon="@drawable/ic_mail"
+        android:title="contact"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/email_contact"
+        android:title="pizza@gmail.com"
+        app:showAsAction="never"/>
+    <item android:id="@+id/phone_contact"
+        android:title="07856565656"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/done"
+        android:icon="@drawable/ic_done"
+        android:title="done"
+        app:showAsAction="ifRoom"/>
+</menu>
